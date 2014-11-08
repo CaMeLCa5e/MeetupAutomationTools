@@ -8,7 +8,7 @@ driver = webdriver.Firefox()
 driver.get("https://secure.meetup.com/login/")
 
 username = driver.find_element_by_id('email')
-username.send_keys('XXX@gmail.com')
+username.send_keys('XXXX@gmail.com')
 
 password = driver.find_element_by_id('password')
 password.send_keys('XXX')
